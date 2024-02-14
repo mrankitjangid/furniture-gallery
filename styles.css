@@ -24,9 +24,8 @@ html {
 
 header {
     position: fixed;
-    width: 100%;
     top: 0;
-    right: 0;
+    left: 0;
     z-index: 100;
     display: flex;
     align-items: center;
@@ -44,6 +43,10 @@ header {
 
 .logo span {
     color: var(--main-color);
+}
+
+.navbar {
+    width: 100vw;
 }
 
 .navbar ul {
@@ -213,7 +216,7 @@ img {
 }
 
 .input-field {
-    width: 700px;
+    width: 90vw;
     height: 50px;
     border-radius: 15px;
     text-align: center;
